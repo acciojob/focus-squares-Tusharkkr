@@ -5,7 +5,7 @@
 
         squares[i].addEventListener("mouseenter", () => {
             for (let j = 0; j < squares.length; j++) {
-                if (i! == j) {
+                if (i!== j) {
                     squares[j].style.backgroundColor = 'rgb(111, 78, 55)';
                 }
             }
