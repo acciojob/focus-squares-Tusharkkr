@@ -6,14 +6,14 @@
         squares[i].addEventListener("mouseenter", () => {
             for (let j = 0; j < squares.length; j++) {
                 if (i !== j) {
-                    squares[j].style.backgroundColor = '#6F4E37';
+                    squares[j].style.backgroundColor = 'rgb(111, 78, 55)';
                 }
             }
         });
 
         squares[i].addEventListener("mouseleave", () => {
             for (let j = 0; j < squares.length; j++) {
-                squares[j].style.backgroundColor = '#E6E6FA';
+                squares[j].style.backgroundColor = 'rgb(230, 230, 250)';
             }
         });
     }
